@@ -1,8 +1,11 @@
 package application;
 
+import boardgame.Board;
+
 public class Program {
 
     public static void main(String[] args) {
-	// write your code here
+
+        Board board = new Board(8, 8);
     }
 }
